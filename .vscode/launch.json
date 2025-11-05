@@ -1,0 +1,23 @@
+account = 'Kdot'
+password = '1996'
+age = 29
+print('Welcome, Input account')
+account = input()
+if account == 'Kdot' :
+    print('Welcome Kdot')
+else :
+    print('Access denied')
+if account == 'Kdot' :
+    print('Input password')
+password = input()
+if password == '1996' :
+    print('One more step')
+else :
+    print('Wrong password')
+if password == '1996' :
+    print('age?')
+age = input()
+if age == '29' :
+    print('Welcome back Kdot')
+else :
+    print('Access denied')
